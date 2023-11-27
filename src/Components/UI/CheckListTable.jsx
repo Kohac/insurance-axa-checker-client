@@ -5,7 +5,7 @@ function CheckListTable() {
     <div style={{ maxHeight: "41vh", overflowY: "auto" }}>
       <h3 className="text-center my-3">Kontrolní soupisky</h3>
       <table className="table table-light table-hover">
-        <thead style={{ position: "sticky", top: "0" }}>
+        <thead style={{ position: "sticky", top: "0", zIndex: "50" }}>
           <tr className="table-dark">
             <th scope="col">Type</th>
             <th scope="col">Column heading</th>
@@ -21,7 +21,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
           <tr className="table-active">
@@ -30,7 +37,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
@@ -39,7 +53,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
           <tr className="table-active">
@@ -48,7 +69,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
@@ -57,7 +85,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
           <tr className="table-active">
@@ -66,7 +101,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
@@ -75,7 +117,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
           <tr className="table-active">
@@ -84,7 +133,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
@@ -93,7 +149,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
           <tr className="table-active">
@@ -102,7 +165,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
@@ -111,7 +181,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
           <tr className="table-active">
@@ -120,7 +197,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
@@ -129,7 +213,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
           <tr className="table-active">
@@ -138,7 +229,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
           <tr>
@@ -147,7 +245,14 @@ function CheckListTable() {
             <td>Column content</td>
             <td>Column content</td>
             <td>
-              <button className="btn btn-secondary">Zneplatnit/Obnovit</button>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-danger btn-sm">
+                  Zneplatnit
+                </button>
+                <button type="button" class="btn btn-success btn-sm">
+                  Obnovit
+                </button>
+              </div>
             </td>
           </tr>
         </tbody>
